@@ -3,6 +3,8 @@
 # Définition des variables
 current_date=$(date +\%d-\%m-\%Y-\%H:\%M)
 
+cd /home/La_Plateforme/SystemeScriptSecurite/
+
 # Vérifie si le dossier Plateforme_backup existe
 if [ ! -d "Plateforme_backup" ]; then
     # Crée le dossier Plateforme_backup s'il n'existe pas
